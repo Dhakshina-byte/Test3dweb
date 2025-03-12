@@ -1,0 +1,35 @@
+{
+  "name": "3d-website",
+  "version": "1.0.0",
+  "description": "A 3D website using Three.js, GSAP, and Babylon.js.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "dependencies": {
+    "babylonjs": "^5.0.0",
+    "gsap": "^3.11.5",
+    "three": "^0.140.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^6.11.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.2"
+  },
+  "keywords": [
+    "3D",
+    "Three.js",
+    "GSAP",
+    "Babylon.js",
+    "WebGL"
+  ],
+  "author": "",
+  "license": "ISC"
+}
