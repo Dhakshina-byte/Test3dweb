@@ -1,0 +1,2 @@
+(()=>{"use strict";const e=THREE;var n,i,t;n=new e.Scene,(i=new e.PerspectiveCamera(75,window.innerWidth/window.innerHeight,.1,1e3)).position.z=5,(t=new e.WebGLRenderer({antialias:!0})).setSize(window.innerWidth,window.innerHeight),document.body.appendChild(t.domElement),window.addEventListener("resize",(function(){i.aspect=window.innerWidth/window.innerHeight,i.updateProjectionMatrix(),t.setSize(window.innerWidth,window.innerHeight)}),!1),function e(){requestAnimationFrame(e),t.render(n,i)}()})();
+//# sourceMappingURL=threejs.bundle.js.map
